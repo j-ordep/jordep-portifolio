@@ -10,19 +10,17 @@ const HeroSection = () => {
           João Pedro Camargo Pinheiro
         </h1>
         <p className="text-xl sm:text-2xl text-muted-foreground mb-6 font-light">
-          Backend Developer
+          Software Engineer | Backend
         </p>
         <p className="text-muted-foreground max-w-xl mx-auto mb-8 leading-relaxed">
-          Backend Developer com experiência em Golang, desenvolvimento de APIs REST, PostgreSQL,
-          autenticação com JWT e Keycloak, e arquitetura de software. Foco em código limpo, testes
-          e boas práticas.
+          Building reliable backend systems.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
           <Button asChild>
-            <a href="#projects">
+            <a href="#about">
               <ArrowDown className="h-4 w-4" />
-              Ver Projetos
+              Sobre mim
             </a>
           </Button>
           <Button variant="outline" asChild>

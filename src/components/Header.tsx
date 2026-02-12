@@ -3,15 +3,15 @@ import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { label: "About", href: "#about" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
+  { label: "Sobre mim", href: "#about" },
+  { label: "Experiência", href: "#experience" },
+  { label: "Projetos", href: "#projects" },
+  { label: "Formação", href: "#education" },
+  { label: "Contato", href: "#contact" },
 ];
 
 const Header = () => {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -32,8 +32,8 @@ const Header = () => {
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="font-mono text-sm font-semibold text-primary">
-          {"<jp />"}
+        <a href="#" className="Consolas text-xl font-semibold text-primary">
+          {"João Pedro Camargo"}
         </a>
 
         <nav className="hidden md:flex items-center gap-6">

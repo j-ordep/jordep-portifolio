@@ -26,7 +26,7 @@ const EducationSection = () => {
     <section id="education" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold mb-8">
-          <span className="font-mono text-primary mr-2">04.</span>Education & Courses
+          Formação & Cursos
         </h2>
 
         <div className="space-y-4">

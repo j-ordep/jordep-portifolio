@@ -9,7 +9,7 @@ const ResumeSection = () => {
     <section id="resume" className="py-24 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-2xl font-bold mb-8">
-          <span className="font-mono text-primary mr-2">05.</span>Resume
+          <span className="font-mono text-primary mr-2">05.</span>Currículo
         </h2>
 
         <div className="flex items-center justify-center gap-3 mb-8">

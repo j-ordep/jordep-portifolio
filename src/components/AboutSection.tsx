@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 
 const techs = [
-  "Golang", "PostgreSQL", "Docker", "REST APIs", "Keycloak", "JWT", "Kafka", "Java", "Spring Boot", "Git", "Linux", "SonarQube",
+  "Golang", "Java", "Spring Boot", "PostgreSQL", "Docker", "Keycloak", "JWT", "Kafka", "Git", "SonarQube",
 ];
 
 const AboutSection = () => {
@@ -9,22 +9,20 @@ const AboutSection = () => {
     <section id="about" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold mb-8">
-          <span className="font-mono text-primary mr-2">01.</span>About
+          Sobre mim
         </h2>
 
         <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
           <p>
-            Backend Developer com experiência prática no desenvolvimento de APIs REST em Golang,
-            integração com banco de dados PostgreSQL, autenticação com Keycloak e JWT, e
-            arquitetura desacoplada.
+            Sou desenvolvedor backend com experiência na construção de sistemas em Golang, APIs REST,
+            banco de dados PostgreSQL, implementação de autenticação com Keycloak e JWT.
           </p>
           <p>
-            Experiência no desenvolvimento de sistemas desde a modelagem até implementação,
-            incluindo definição de regras de negócio, testes automatizados e integração com
-            serviços externos.
+            Atuo desde a modelagem de dados e definição da arquitetura até a implementação,
+            participando da definição de regras de negócio, criação de testes automatizados e integração com serviços externos.
           </p>
           <p>
-            Foco em desenvolvimento backend, arquitetura de software, sistemas escaláveis,
+            Foco em desenvolvimento backend, arquitetura de software, escalabilidade,
             código limpo e organizado.
           </p>
         </div>

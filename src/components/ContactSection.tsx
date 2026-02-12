@@ -1,10 +1,14 @@
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, Phone } from "lucide-react";
 
 const contacts = [
   {
     icon: Mail,
     label: "joaoppinheiro2005@gmail.com",
     href: "mailto:joaoppinheiro2005@gmail.com",
+  },
+  {
+    icon: Phone,
+    label: "21 998686167",
   },
   {
     icon: Github,
@@ -23,12 +27,8 @@ const ContactSection = () => {
     <section id="contact" className="py-24 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-2xl font-bold mb-4">
-          <span className="font-mono text-primary mr-2">06.</span>Contact
+          Contato
         </h2>
-        <p className="text-muted-foreground mb-8">
-          Aberto a novas oportunidades. Entre em contato!
-        </p>
-
         <div className="flex flex-col items-center gap-4">
           {contacts.map((c) => (
             <a
