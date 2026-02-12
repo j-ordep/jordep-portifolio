@@ -11,13 +11,13 @@ const GitHubSection = () => {
 
         <div className="flex flex-col items-center gap-6">
           <img
-            src="https://github-readme-stats.vercel.app/api?username=j-ordep&show_icons=true&theme=transparent&hide_border=true&text_color=888&title_color=34d399&icon_color=34d399"
+            src="https://github-readme-stats.vercel.app/api?username=j-ordep&show_icons=true&theme=transparent&hide_border=true&text_color=888&title_color=ccc&icon_color=ccc"
             alt="GitHub Stats"
             className="max-w-full"
             loading="lazy"
           />
           <img
-            src="https://github-readme-streak-stats.herokuapp.com?user=j-ordep&theme=transparent&hide_border=true&ring=34d399&fire=34d399&currStreakLabel=34d399"
+            src="https://github-readme-streak-stats.herokuapp.com?user=j-ordep&theme=transparent&hide_border=true&ring=ccc&fire=ccc&currStreakLabel=ccc"
             alt="GitHub Streak"
             className="max-w-full"
             loading="lazy"
