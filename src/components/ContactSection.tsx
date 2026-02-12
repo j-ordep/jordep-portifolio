@@ -23,7 +23,7 @@ const ContactSection = () => {
     <section id="contact" className="py-24 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-2xl font-bold mb-4">
-          <span className="font-mono text-primary mr-2">07.</span>Contact
+          <span className="font-mono text-primary mr-2">06.</span>Contact
         </h2>
         <p className="text-muted-foreground mb-8">
           Aberto a novas oportunidades. Entre em contato!
