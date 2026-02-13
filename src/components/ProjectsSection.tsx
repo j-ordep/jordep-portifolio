@@ -23,7 +23,7 @@ const ProjectsSection = () => {
     <section id="projects" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold mb-8">
-          <span className="font-mono text-primary mr-2">03.</span>Projetos
+          Projetos
         </h2>
 
         <div className="grid gap-6 md:grid-cols-2">
